@@ -1,0 +1,17 @@
+# Mac
+*.DS_Store
+
+# IDE
+.idea/
+
+*.py[cod]
+db.sqlite3
+
+# buildout, virtualenv
+bin/
+develop-eggs/
+eggs/
+venv/
+*.egg-info/
+
+__pycache__/
