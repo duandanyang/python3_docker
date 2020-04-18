@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-python ./manage.py runserver
+ip=`hostname -i`
+python ./manage.py runserver ${ip}:8000
